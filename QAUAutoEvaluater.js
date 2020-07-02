@@ -57,7 +57,7 @@ if (url.indexOf(evaluationInfoPage) != -1) {
             while(new Date().getTime() < startTime) {}
         }
     };
-    // 这里等待评教页面保存关闭 点击提交按钮
+    // 这里等待评教页面保存关闭 写提交按钮的点击事件
     // xxx.click();
     window.close();
 }
