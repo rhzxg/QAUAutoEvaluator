@@ -45,7 +45,7 @@ if (url.indexOf(evaluationInfoPage) != -1) {
     // /\'(.*)\'/.exec(c)[0].slice(1, -1)
 
     var teacherPageList = [];
-    for(var t_i=0;t_i<tableList.length;t_i++){
+    for(var t_i=0;t_i<teacherTableList.length;t_i++){
         teacherPageList.push(/\'(.*)\'/.exec(teacherTableList[t_i].getAttribute("href"))[0].slice(1, -11));
     }
 
