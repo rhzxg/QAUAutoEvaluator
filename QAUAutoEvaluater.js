@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         青岛农业大学自动评教脚本
 // @namespace    https://github.com/CodingDogzxg
-// @version      0.3.2 beta 2021/11/13 built
+// @version      0.3.4 beta 2021/11/25 built
 // @description  青岛农业大学 QAU 期末评教 自动评教
 // @author       QAUCodingDog_zxg
 // @include      http://jwglxt.qau.edu.cn/jsxsd1/xspj/xspj_find.do?*
 // @include      http://jwglxt.qau.edu.cn/jsxsd1/xspj/xspj_list.do?*
 // @include      http://jwglxt.qau.edu.cn/jsxsd1/xspj/xspj_edit.do?*
 // @grant        GM_addStyle
-// @license      MIT
+// @license      GPLv3
 // ==/UserScript==
  
  
@@ -66,7 +66,7 @@ if (mainPage.indexOf(url) != -1) {
     var star = document.createElement("span");
     star.id = "star";
     star.innerHTML = "联系作者";
-    star.addEventListener("click", function () {window.open("https://www.codingdog.xyz/contact", "_blank");});
+    star.addEventListener("click", function () {window.open("mailto:codingdogzxg@gmail.com", "_blank");});
     td2.appendChild(star);
     GM_addStyle("#star{" + style_btn + "}");
     var open = document.createElement("span");
