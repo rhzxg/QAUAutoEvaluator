@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         青岛农业大学自动评教脚本
 // @namespace    https://github.com/CodingDogzxg
-// @version      0.3.4 beta 2021/11/25 built
+// @version      0.3.6 beta 2022/1/13 built
 // @description  青岛农业大学 QAU 期末评教 自动评教
 // @author       QAUCodingDog_zxg
 // @include      http://jwglxt.qau.edu.cn/jsxsd1/xspj/xspj_find.do?*
