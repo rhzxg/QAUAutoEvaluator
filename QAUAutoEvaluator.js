@@ -4,9 +4,9 @@
 // @version      0.3.6 beta 2022/1/13 built
 // @description  青岛农业大学 QAU 期末评教 自动评教
 // @author       QAUCodingDog_zxg
-// @include      http://jwglxt.qau.edu.cn/jsxsd1/xspj/xspj_find.do?*
-// @include      http://jwglxt.qau.edu.cn/jsxsd1/xspj/xspj_list.do?*
-// @include      http://jwglxt.qau.edu.cn/jsxsd1/xspj/xspj_edit.do?*
+// @include      http://jwglxt.qau.edu.cn/jsxsd/xspj/xspj_find.do?*
+// @include      http://jwglxt.qau.edu.cn/jsxsd/xspj/xspj_list.do?*
+// @include      http://jwglxt.qau.edu.cn/jsxsd/xspj/xspj_edit.do?*
 // @grant        GM_addStyle
 // @license      GPLv3
 // ==/UserScript==
@@ -14,9 +14,9 @@
  
 // 变量
 var url = location.pathname,
-mainPage = "http://jwglxt.qau.edu.cn/jsxsd1/xspj/xspj_find.do",
-evaluationInfoPage = "http://jwglxt.qau.edu.cn/jsxsd1/xspj/xspj_list.do",
-evaluationMainPage = "http://jwglxt.qau.edu.cn/jsxsd1/xspj/xspj_edit.do";
+mainPage = "http://jwglxt.qau.edu.cn/jsxsd/xspj/xspj_find.do",
+evaluationInfoPage = "http://jwglxt.qau.edu.cn/jsxsd/xspj/xspj_list.do",
+evaluationMainPage = "http://jwglxt.qau.edu.cn/jsxsd/xspj/xspj_edit.do";
  
 // 绘制窗口
 if (mainPage.indexOf(url) != -1) {
