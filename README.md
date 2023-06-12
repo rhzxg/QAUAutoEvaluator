@@ -8,3 +8,6 @@
 2020/12/17 19:00 脚本逻辑修改完成 可以使用了！
 
 2021/8/7 16:00 增加功能按钮
+
+# Acknowledgements:
+[alexhoshina](https://github.com/alexhoshina)
